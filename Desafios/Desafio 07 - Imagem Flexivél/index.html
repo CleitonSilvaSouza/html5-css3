@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <link rel="shortcut icon" href="Marina.Ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vário despositivos</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

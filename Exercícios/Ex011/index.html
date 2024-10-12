@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídeas em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a repruduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/05 - Não Tenha Dúvida.mp3" type="audio/mpeg">
+        <source src="midia/05 - Não Tenha Dúvida.ogg" type="audio/ogg">
+        <source src="midia/05 - Não Tenha Dúvida.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/05 - Não Tenha Dúvida.mp3">Clique aqui para baixar o arquivo mp3.</a></p>
+    </audio>
+</body>
+</html>

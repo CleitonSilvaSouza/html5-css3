@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <link rel="shortcut icon" href="Marina.Ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgreen;
+            margin: 0px;
+        }
+
+        header{
+           background-color:white;
+           padding: 10px;
+           margin: 10px;   
+        }
+
+        nav{
+            background-color: yellowgreen;
+            padding: 5px;
+            box-shadow: 1px 1px 1px blue;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: yellowgreen;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5%;
+        }
+
+        article{
+            background-color: blue;
+            padding: 5px;
+            border-radius: 5%;
+        }
+
+        article > aside{
+            background-color: green;
+
+        }
+
+        footer{
+            background-color: blue;
+            color: pink;
+            text-align: center;
+            padding: 0px;
+            margin: 10px;
+        }
+
+        footer > P{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos"></section>
+        <p>Tecnologia</p>
+        <section id="Notícias"></section>
+        <article>
+            <h2>Notícias sobre tecnologia</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quaerat nisi quae illo. Saepe, ad quod veritatis odio ipsum culpa distinctio exercitationem hic repellat fugiat aut ex inventore amet sit?</p>
+            <aside>
+                <p>Escrito por Cleiton Souza</p>
+            </aside>
+        </article>
+    </main>
+    <footer>Desenvolvido por CursoemVideo</footer>
+    <div id="bola"></div>
+</body>
+</html>

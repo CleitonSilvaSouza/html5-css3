@@ -61,6 +61,10 @@ section{
 
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: aliceblue;
     color: green;
@@ -69,12 +73,26 @@ section.normal{
 section.imagem{
     background-color: blueviolet;
     color: yellowgreen;
+    box-shadow: inset 6px 6px 13px 0px green;
+    background-attachment: fixed;
 }
 
-section.imagem > P{
+section.imagem > p{
     display: inline-block;
     padding: 6px;
     background-color: aliceblue;
+    text-shadow: 1px 1px 0px white;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
 }
 
 

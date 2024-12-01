@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="squerciate.ico" type="image/x-icon">
+    <title>Flexible Box</title>
+    <style>
+        div.container{
+            background-color: green;
+            /*height: 100px;*/
+            display: flex;
+            /*flex-direction: row;
+            flex-wrap: wrap;*/
+            flex-flow: row wrap;
+        }
+
+        div.item{
+            background-color: blue;
+            border: 1px solid yellowgreen;
+            text-align: center;
+            flex: auto;
+            
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="item">Exemplo De Bloco A</div>
+        <div class="item">Exemplo De Bloco B</div>
+        <div class="item">Exemplo De Bloco C</div>
+        <div class="item">Exemplo De Bloco D</div>
+        <div class="item">Exemplo De Bloco E</div>
+        <div class="item">Exemplo De Bloco F</div>
+        <div class="item">Exemplo De Bloco G</div>
+        <div class="item">Exemplo De Bloco H</div>
+
+    </div>
+</body>
+</html>

@@ -27,13 +27,14 @@ header{
 }
 
 header > h1{
-    border: 2px dotted blue;
+    /*border: 2px dotted blue;*/
     flex: 0 0 200px;
     /*text-align: center;*/
+    /*text-shadow: 2px 2px 0px blue;*/
 }
 
 header > nav{
-    border: 2px dotted blue;
+    /*border: 2px dotted blue;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
